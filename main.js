@@ -50,9 +50,9 @@ class Vehicle {
 // Use the drive method to simulate trips and update mileage. Use the getDetails method to print each vehicle’s updated information.
 
 //Creating three different vehicle objects
-const car = new Vehicleehicle ("Car", "Honda", "Pilot", 2024);
-const truck = new Vehicleehicle ("Truck", "GMC", "Sierra", 2020);
-const motorcycle = new Vehicleehicle ("Motorcycle", "Suzuki", "Hayabusa", 2023);
+const car = new Vehicle ("Car", "Honda", "Pilot", 2024);
+const truck = new Vehicle ("Truck", "GMC", "Sierra", 2020);
+const motorcycle = new Vehicle ("Motorcycle", "Suzuki", "Hayabusa", 2023);
 
 // using simulate trips 
 car.drive(100);
